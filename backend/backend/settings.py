@@ -11,9 +11,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['84.201.165.11', '127.0.0.1',
                  'localhost', 'secretone.zapto.org']
 
-
 # Application definition
-
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django.contrib.admin',
